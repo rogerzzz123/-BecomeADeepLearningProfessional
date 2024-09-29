@@ -35,4 +35,8 @@ Why not? Remember the problem with dependencies that I mentioned in the virtual 
 ## Start Jupyter Notebook in your Conda Env:
 - jupyter notebook
 
+## Running TensorBoard Locally
+- tensorboard --logdir runs
+- 
+
 - 
