@@ -24,10 +24,15 @@ macOS: If you’re a macOS user, please beware that PyTorch’s binaries do not 
 ## Install TensorBoard
 -  conda install -c conda-forge tensorboard
 
-## conda install vs pip install
+## Conda install vs Pip install
 
 Although they may seem equivalent at first sight, you should prefer conda install over pip install when working with Anaconda and its virtual environments.
 
 The reason is that conda install is sensitive to the active virtual environment; the package will be installed only for that environment. If you use pip install, and pip itself is not installed in the active environment, it will fall back to the global pip, and you definitely do not want that.
 
 Why not? Remember the problem with dependencies that I mentioned in the virtual environment section? That’s why! The conda installer assumes it handles all packages that are part of its repository and keeps track of the complicated network of dependencies among them (to learn more about this, check this link).
+
+## Start Jupyter Notebook in your Conda Env:
+- jupyter notebook
+
+- 
